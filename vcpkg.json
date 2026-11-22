@@ -1,0 +1,10 @@
+{
+  "name": "gamma-p1-testbench",
+  "version": "1.0.0",
+  "description": "Cross-platform gamma-p1 testbench. Third-party dependencies are built from version-locked vendored sources; vcpkg is optional.",
+  "dependencies": [
+    "glfw3",
+    "rtaudio",
+    "rtmidi"
+  ]
+}

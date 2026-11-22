@@ -1,0 +1,23 @@
+# gamma-p1 testbench action log v1
+# session_start 2026-11-22 20:46:31 sr=48000 build=Nov 22 2026 20:45:03
+# t_ms | op | target | old -> new | source
+       7 | cable+       | env0.value->vca.level    | amount=1 id=1 ctrl               | user
+       7 | param        | vca.level                | 1 -> 0                           | user
+       7 | param        | fm.algorithm             | 1 -> 5                           | user
+       7 | param        | voice.engine_mode        | 0 -> 1                           | user
+       8 | preset_save  | sfix1_out/roundtrip_v5.s | -                                | user
+       9 | param        | fm.algorithm             | 5 -> 1                           | user
+       9 | param        | voice.engine_mode        | 1 -> 0                           | user
+       9 | preset_load  | sfix1_out/roundtrip_v5.s | -                                | user
+      12 | preset_load  | sfix1_out/tmp_v1.snp     | -                                | user
+      14 | preset_save  | sfix1_out/tmp_v1_resave. | -                                | user
+      20 | cable+       | env0.value->vca.level    | amount=1 id=1 ctrl               | user
+      20 | param        | vca.level                | 1 -> 0                           | user
+      20 | preset_load  | sfix1_out/tmp_v1_resave. | -                                | user
+      21 | preset_load  | sfix1_out/tmp_v3.snp     | -                                | user
+      23 | preset_save  | sfix1_out/tmp_v3_resave. | -                                | user
+      28 | cable+       | env0.value->vca.level    | amount=1 id=1 ctrl               | user
+      28 | param        | vca.level                | 1 -> 0                           | user
+      29 | preset_load  | sfix1_out/tmp_v3_resave. | -                                | user
+      29 | param        | fm.algorithm             | 4 -> 7                           | user
+# session_end lines=19

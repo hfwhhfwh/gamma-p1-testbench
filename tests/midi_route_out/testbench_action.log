@@ -1,0 +1,26 @@
+# gamma-p1 testbench action log v1
+# session_start 2026-11-22 20:46:16 sr=48000 build=Nov 22 2026 20:45:03
+# t_ms | op | target | old -> new | source
+       8 | cable+       | env0.value->vca.level    | amount=1 id=1 ctrl               | user
+       8 | param        | vca.level                | 1 -> 0                           | user
+       8 | note_on      | 60                       | vel=100                          | user
+       8 | note_on      | 64                       | vel=100                          | user
+# session_end lines=4
+# gamma-p1 testbench action log v1
+# session_start 2026-11-22 20:46:16 sr=48000 build=Nov 22 2026 20:45:03
+# t_ms | op | target | old -> new | source
+       6 | cable+       | env0.value->vca.level    | amount=1 id=1 ctrl               | user
+       6 | param        | vca.level                | 1 -> 0                           | user
+       6 | note_on      | 60                       | vel=100                          | user
+       6 | note_on      | 64                       | vel=100                          | user
+       6 | note_off     | -                        | -                                | user
+# session_end lines=5
+# gamma-p1 testbench action log v1
+# session_start 2026-11-22 20:46:16 sr=48000 build=Nov 22 2026 20:45:03
+# t_ms | op | target | old -> new | source
+       5 | cable+       | env0.value->vca.level    | amount=1 id=1 ctrl               | user
+       5 | param        | vca.level                | 1 -> 0                           | user
+       5 | note_on      | 60                       | vel=100                          | user
+       5 | note_on      | 64                       | vel=100                          | user
+       5 | note_on      | 60                       | vel=100                          | user
+# session_end lines=5
